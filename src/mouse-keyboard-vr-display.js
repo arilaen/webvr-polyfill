@@ -35,7 +35,7 @@ function MouseKeyboardVRDisplay() {
   this.capabilities.hasOrientation = true;
 
   // Attach to mouse and keyboard events.
-  var video = document.querySelector('video');
+  var video = document.querySelector('.video-js');
 
   video.addEventListener('keydown', this.onKeyDown_.bind(this));
   video.addEventListener('mousemove', this.onMouseMove_.bind(this));
